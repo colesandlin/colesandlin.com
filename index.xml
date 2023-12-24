@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Cole Sandlin</title>
+    <link>https://colesandlin.com/</link>
+    <description>Recent content on Cole Sandlin</description>
+    <image>
+      <title>Cole Sandlin</title>
+      <url>https://colesandlin.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://colesandlin.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Wed, 15 Nov 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://colesandlin.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Portfolio Website</title>
+      <link>https://colesandlin.com/projects/portfolio-webiste/</link>
+      <pubDate>Wed, 15 Nov 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://colesandlin.com/projects/portfolio-webiste/</guid>
+      <description>I built a static website using the Hugo framework to act as a personal portfolio. I chose Hugo because it’s open-source and has a fast generation speed. I selected the PaperMod theme to use as a template due to its minimalist appearance and personalized it with custom HTML. For hosting, I opted to use GitHub Pages because it’s free and I was already familiar with Git.</description>
+    </item>
+    
+    <item>
+      <title>MMM-Mudlark Module</title>
+      <link>https://colesandlin.com/projects/mmm-mudlark-module/</link>
+      <pubDate>Sat, 21 Oct 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://colesandlin.com/projects/mmm-mudlark-module/</guid>
+      <description>According to the Cambridge Dictionary, the term mudlarking is defined as “the activity of searching the mud near rivers trying to find valuable or interesting objects.” This happens to be a hobby of mine, so I decided to create a MagicMirror² module to help me determine when conditions are optimal for it. It uses Node.js and displays the current water level of the Ohio River at the user’s location. I utilized REST API calls to the U.</description>
+    </item>
+    
+    <item>
+      <title>PharmaQuiz App</title>
+      <link>https://colesandlin.com/projects/pharmaquiz-app/</link>
+      <pubDate>Mon, 28 Nov 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://colesandlin.com/projects/pharmaquiz-app/</guid>
+      <description>I developed a cross-platform quiz app for pharmacy students as part of a team and in collaboration with Michael Peabody, senior manager at the National Association of Boards of Pharmacy. Our team chose to use React Native in order to fulfill the request for cross-platform compatibility. My contribution was implementing the back-end Cloud Firestore database responsible for storing user-generated question banks. I chose to use Cloud Firestore because of its real-time capabilities and scalability.</description>
+    </item>
+    
+    <item>
+      <title>MagicMirror² Implementation</title>
+      <link>https://colesandlin.com/projects/magicmirror-implementation/</link>
+      <pubDate>Fri, 12 Aug 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://colesandlin.com/projects/magicmirror-implementation/</guid>
+      <description>MagicMirror² is an open-source platform which can be used to create a customizable smart mirror that can display various information. I deployed my instance of it on a Raspberry Pi 3 Model B+ connected to an LCD display I got from disassembling an old 27” Samsung monitor. I applied one way mirror film to a piece of tempered glass placed in front of the screen to achieve the desired effect and created a frame for it out of oak boards.</description>
+    </item>
+    
+    <item>
+      <title>Pi-hole Implementation</title>
+      <link>https://colesandlin.com/projects/pi-hole-implementation/</link>
+      <pubDate>Tue, 29 Jun 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://colesandlin.com/projects/pi-hole-implementation/</guid>
+      <description>Pi-hole is an open-source software that acts as a DNS server which blocks advertisements and disables trackers on a network-wide level. I configured my instance to run on a headless Raspberry Pi Zero connected to my router through Ethernet. This device has improved my network’s privacy by preventing targeted advertising and security by stopping malicious advertisements from being served.</description>
+    </item>
+    
+  </channel>
+</rss>
