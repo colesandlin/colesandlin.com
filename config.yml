@@ -1,0 +1,66 @@
+baseURL: "https://colesandlin.com/"
+title: Cole Sandlin
+paginate: 5
+theme: PaperMod
+
+params:
+  env: production
+  title: Cole Sandlin
+  description: "Portfolio Website"
+  author: Cole Sandlin
+  DateFormat: "January 2, 2006"
+  defaultTheme: dark
+  disableThemeToggle: true
+  
+  ShowPostNavLinks: true
+  ShowBreadCrumbs: true
+
+  assets:
+    favicon: "favicons/favicon.ico"
+    favicon16x16: "favicons/favicon-16x16.png"
+    favicon32x32: "favicons/favicon-32x32.png"
+    apple_touch_icon: "favicons/apple-touch-icon.png"
+    safari_pinned_tab: "favicons/safari-pinned-tab.svg"
+
+  label:
+    text: "Cole Sandlin"
+    icon: "images/icon.png"
+    iconHeight: 35
+
+  profileMode:
+    enabled: true
+    title: Hi, I'm Cole
+    subtitle: "I’m a full stack developer with a degree in computer engineering from the University of Kentucky."
+    imageUrl: "images/profile image.png"
+    imageWidth: 120
+    imageHeight: 120
+    imageTitle: my image
+    buttons:
+      - name: Projects
+        url: projects
+      - name: Resume
+        url: "Cole-Sandlin-Resume.pdf"
+
+  socialIcons:
+    - name: GitHub
+      url: "https://github.com/colesandlin"
+    - name: LinkedIn
+      url: "https://linkedin.com/in/colesandlin"
+    - name: Email
+      url: "mailto:coledsandlin@gmail.com"
+    
+
+menu:
+  main:
+    - identifier: Home
+      name: Home
+      url:
+      weight: 10
+    - identifier: Projects
+      name: Projects
+      url: /projects/
+      weight: 20
+    - identifier: Resume
+      name: Resume
+      url: "Cole-Sandlin-Resume.pdf"
+      weight: 30
