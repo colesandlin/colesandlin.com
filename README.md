@@ -1,2 +1,2 @@
 # colesandlin.com
-My portfolio website
+My portfolio website.
