@@ -7,6 +7,7 @@ enableRobotsTXT: true
 buildDrafts: false
 buildFuture: false
 buildExpired: false
+pluralizeListTitles: false
 
 minify:
   disableXML: true
@@ -20,7 +21,7 @@ params:
 
   ShowReadingTime: false
   ShowShareButtons: false
-  ShowPostNavLinks: true
+  ShowPostNavLinks: false
   ShowBreadCrumbs: true
   ShowCodeCopyButtons: false
   ShowWordCount: false
@@ -30,7 +31,7 @@ params:
   disableScrollToTop: false
   comments: false
   hidemeta: false
-  hideSummary: false
+  hideSummary: true
   showtoc: false
   tocopen: false
 
@@ -78,11 +79,15 @@ menu:
       name: Home
       url: /
       weight: 10
-    - identifier: Resume
+    - identifier: resume
       name: Resume
       url: "Cole-Sandlin-Resume.pdf"
       weight: 20
-    - identifier: Projects
+    - identifier: projects
       name: Projects
       url: /projects/
       weight: 30
+    - identifier: coin cabinet
+      name: Coin Cabinet
+      url: /coin-cabinet/
+      weight: 40
