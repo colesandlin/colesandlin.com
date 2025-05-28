@@ -1,6 +1,7 @@
 baseURL: "https://colesandlin.com/"
 title: Cole Sandlin
-paginate: 5
+pagination:
+  pagerSize: 5
 theme: PaperMod
 
 services:
