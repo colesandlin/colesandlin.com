@@ -1,3 +1,86 @@
-baseURL: https://example.org/
-languageCode: en-us
-title: My New Hugo Site
+baseURL: "https://colesandlin.com/"
+title: Cole Sandlin
+paginate: 5
+theme: PaperMod
+
+services:
+  googleAnalytics:
+    SiteVerificationTag: "G-0TLWK7D4V0"
+
+enableRobotsTXT: true
+buildDrafts: false
+buildFuture: false
+buildExpired: false
+pluralizeListTitles: false
+
+minify:
+  disableXML: true
+  minifyOutput: true
+
+params:
+  env: production
+  DateFormat: "January 2, 2006"
+  defaultTheme: dark
+  disableThemeToggle: true
+
+  ShowReadingTime: false
+  ShowShareButtons: false
+  ShowPostNavLinks: false
+  ShowBreadCrumbs: true
+  ShowCodeCopyButtons: false
+  ShowWordCount: false
+  ShowRssButtonInSectionTermList: false
+  UseHugoToc: true
+  disableSpecial1stPost: false
+  disableScrollToTop: false
+  comments: false
+  hidemeta: false
+  hideSummary: true
+  showtoc: false
+  tocopen: false
+
+  assets:
+    favicon: "favicon.ico"
+    favicon16x16: "favicon-16x16.png"
+    favicon32x32: "favicon-32x32.png"
+    apple_touch_icon: "apple-touch-icon.png"
+
+  label:
+    text: "Cole Sandlin"
+    icon: "icon.svg"
+    iconHeight: 35
+
+  profileMode:
+    enabled: true
+    title: "Hi, I'm Cole"
+    subtitle: "I’m a full-stack developer with a degree in computer engineering from the University of Kentucky."
+    imageUrl: "images/profile image.png"
+    imageWidth: 120
+    imageHeight: 120
+    imageTitle: my image
+    buttons:
+      - name: Download Resume
+        url: "Cole-Sandlin-Resume.pdf"
+
+  socialIcons:
+    - name: GitHub
+      url: "https://github.com/colesandlin"
+    - name: LinkedIn
+      url: "https://linkedin.com/in/colesandlin"
+    - name: Email
+      url: "mailto:coledsandlin@gmail.com"
+
+menu:
+  main:
+    - identifier: Home
+      name: Home
+      url: /
+      weight: 10
+    - identifier: projects
+      name: Projects
+      url: /projects/
+      weight: 20
+    - identifier: coin cabinet
+      name: Coin Cabinet
+      url: /coin-cabinet/
+      weight: 30
